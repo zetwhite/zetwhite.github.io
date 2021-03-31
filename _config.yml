@@ -8,11 +8,11 @@
 #
 # Basic, either your jekyll site's name or
 # an organization.
-name: "K i k o f r i"
+name: "Z3T-WH1TE"
 description: "dirty and malnourished jekyll theme"
 
 # This should be a person of some sort.
-author: "kxxvii"
+author: "zetwhite"
 
 # Would make sense to use the 'name:' above
 # here. This is an alternative title.
@@ -35,7 +35,7 @@ logo:
 # # # # #
 
 # URL-stuff, don't forget the 'http...'-part
-url: "https://your.own.url.net"
+url: "https://zetwhite.github.io"
 #baseurl: ""
 permalink: /:year/:month/:day/:title.html
 
