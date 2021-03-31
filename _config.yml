@@ -35,7 +35,7 @@ logo:
 # # # # #
 
 # URL-stuff, don't forget the 'http...'-part
-url: "https://zetwhite.github.io"
+url: "http://zetwhite.github.io"
 #baseurl: ""
 permalink: /:year/:month/:day/:title.html
 
