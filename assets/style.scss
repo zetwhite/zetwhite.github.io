@@ -7,9 +7,22 @@
             box-sizing: border-box;
 }
 
+@font-face {
+	font-family: "NanumBarunpenB";
+	src: url("/assets/fonts/NanumBarunpenB.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NanumSquareR";
+	src: url("/assets/fonts/NanumSquareRoundR.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
 html {
-  	font-family: 'Linux Libertine, Bitstream Vera Sans, sans-serif';
+  	font-family: 'NanumSquareR';
   	font-size: 1.12rem;
   	font-weight: normal;
   	line-height: 1.35;
@@ -18,13 +31,13 @@ html {
 
 body {
   	color: #0d0d0d;
-  	background-color: #ffffff;
+  	background-color: #f5f1f0;
   	-webkit-text-size-adjust: 100%;
       	-ms-text-size-adjust: 100%;
 }
 
 .container {
-  	max-width: 580px;
+  	max-width: 700px;
   	margin: auto;
     text-align: center;
 }
@@ -35,7 +48,7 @@ body {
 }
 
 a {
-  	color: #800000;
+  	color: #0e4d92; 
   	text-decoration: none;
 
     &:hover, &:focus {
@@ -47,17 +60,18 @@ b {
  	font-weight: normal;
  	background-color: #f2f2f2;
  	padding: 0 0.2rem 0.1rem 0.3rem;
- 	border: solid 1px #800000;
+ 	border: solid 1px #0e4d92;
  	color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
+		font-family: 'NanumBarunpenB';
   	margin-top: 0;
   	margin-bottom: .4rem;
     margin: 1.2rem 0 0.5rem 0;
   	font-weight: 500;
   	line-height: 1;
-  	color: #912222;
+  	color: #23395d;
   	letter-spacing: -.025rem;
   	text-transform: capitalize;
 }
@@ -228,7 +242,7 @@ td,th {
 }
 
 time {
-    font-family: monospace;
+		font-family: "NanumBarunpenB";
     font-size: 0.8rem;
     text-decoration: overline;
 }
@@ -243,9 +257,9 @@ hr {
 
   &-title {
     	font-weight: 400;
-
+			padding-bottom: 0.1em;
     a {
-      	color: #660000;
+      	color: #0e4d92;
 
       &:hover,
       &:focus {
@@ -268,7 +282,7 @@ hr {
     text-decoration: underline;                              
 
     a {
-      	color: #660000;
+      	color: #0e4d92;
 
       &:hover,
       &:focus {
@@ -278,7 +292,7 @@ hr {
   }
 
   .header-nav {
-    	margin-bottom: 1.2rem;
+    	margin-bottom: 1.5rem;
 
     a {
       	color: #808080;
@@ -336,7 +350,8 @@ hr {
 }
 
 .footer {
- 	font-size: 20px;
+	font-family: "NanumBarunpenB";
+ 	font-size: 18px;
  	font-weight: bold;
  	text-align: center;
  	padding: 0 0 10px 0;

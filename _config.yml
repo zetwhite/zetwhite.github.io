@@ -9,14 +9,14 @@
 # Basic, either your jekyll site's name or
 # an organization.
 name: "Z3T-WH1TE"
-description: "dirty and malnourished jekyll theme"
+description: "zetwhite blog"
 
 # This should be a person of some sort.
 author: "zetwhite"
 
 # Would make sense to use the 'name:' above
 # here. This is an alternative title.
-title: "Kikofri - Live Undead (1988, Moscow)"
+title: "Zetwhite-Blog"
 
 # 'en_US' is the default language. Enter a
 # new default language here. Making 'en_US'
@@ -35,7 +35,7 @@ logo:
 # # # # #
 
 # URL-stuff, don't forget the 'http...'-part
-url: "https://zetwhite.github.io"
+url: "http://zetwhite.github.io"
 #baseurl: ""
 permalink: /:year/:month/:day/:title.html
 
@@ -54,4 +54,4 @@ nav:
    href: "/feed.xml"
 
  - name: "contact"
-   href: "/mailto:ivantheterrible@1530to1584.gov"
+   href: "/mailto:roonm813@naver.com"
