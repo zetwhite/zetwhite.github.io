@@ -52,19 +52,19 @@
     {% if page.image %}
         {{ page.image }} 
     {% elsif site.image %}
-        {{ site.url }}{{ site.image }} 
+        https://{{ site.url }}{{ site.image }} 
     {% else %}
-        {{ site.url }} 
+        https://{{ site.url }} 
     {% endif -%}
 {% endcapture -%}
 
 {%- capture log -%}
     {%- if site.logo %}
-        {{ site.url }}{{ site.logo }}
+        https://{{ site.url }}{{ site.logo }}
     {% elsif site.image %}
-        {{ site.url }}{{ site.image }} 
+        https://{{ site.url }}{{ site.image }} 
     {% else %}
-        {{ site.url }} 
+        https://{{ site.url }} 
     {% endif -%}
 {%- endcapture -%}
 

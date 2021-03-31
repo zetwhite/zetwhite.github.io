@@ -30,14 +30,14 @@
             {%- increment num -%}
         {%- endcapture %}
     
-        <a href="{{ site.url }}{{ post.url }}" id="{{ id }}"
+        <a href="https://{{ site.url }}{{ post.url }}" id="{{ id }}"
             title="Post: '{{ id }}'">{{ post.title | truncate: 32}}</a>
     
     {%- else -%}
         {%- assign len = 150 %}
     
         <h2>
-            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+            <a href="https://{{ site.url }}{{ post.url }}">{{ post.title }}</a>
         </h2>
         <time>{{ post.date | date_to_string }}</time>
     
