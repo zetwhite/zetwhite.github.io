@@ -35,7 +35,7 @@ logo:
 # # # # #
 
 # URL-stuff, don't forget the 'http...'-part
-url: "zetwhite.github.io"
+url: "//127.0.0.1:4000"
 #baseurl: ""
 permalink: /:year/:month/:day/:title.html
 
@@ -54,4 +54,4 @@ nav:
    href: "/feed.xml"
 
  - name: "contact"
-   href: "/mailto:roonm813@naver.com"
+   href: "/contact"

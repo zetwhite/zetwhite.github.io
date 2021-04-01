@@ -13,7 +13,7 @@ layout: pages
 
 
 ## welcome #
-\\
+&nbsp;  
 안녕하세요. \\
 zetwhite 블로그 입니다. \\
 공유하고 싶은 걸 적습니다. 

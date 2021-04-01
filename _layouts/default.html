@@ -15,14 +15,15 @@
 
         <header class="header">
             <h1 class="header-title">
-                <a href="https://{{ site.url }}/">{{ site.name }}</a>
+                <a href="{{ site.url }}/">{{ site.name }}</a>
             </h1>
             <nav class="header-nav">
                 {% for nav in site.nav %}
-                <a href="https://{{ site.url }}{{ nav.href }}">{{ nav.name }}</a>
+                <a href="{{ site.url }}{{ nav.href }}">{{ nav.name }}</a>
                 {% endfor %}
             </nav>
-            <hr>
+            <hr style="margin-bottom:2px">
+            <img src="/assets/images/earth.gif" width="150"/>
         </header>
 
     {% endif %}
